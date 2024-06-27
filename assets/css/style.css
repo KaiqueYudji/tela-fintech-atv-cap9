@@ -1,0 +1,48 @@
+
+html {
+    font-family: "Poppins";
+}
+
+
+:root{
+    --main_color: #225A6Bc7
+}
+
+h1{
+    color: var(--main_color);
+    font-size:80px;
+}
+
+svg{
+    width: 120px;
+    height: auto;
+    fill: var(--main_color)
+}
+
+
+.fintech-btn{
+    background-color: var(--main_color);
+    color: var(--bs-light);
+    border: none;
+    width: 250px;
+    height: 35px;
+}
+
+
+.background-container{
+    background-image: url("/assets/images/triangulo-imagem-fundo.svg");
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: right bottom;
+}
+
+
+@media(max-width:800px){
+    .content{
+        margin-bottom: 200px;
+    }
+
+    .background-container{
+        background-size: 400px;
+    }
+}
